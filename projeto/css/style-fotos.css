@@ -1,0 +1,31 @@
+
+:root{
+
+    --padraoCinza: #212529;
+
+}
+
+.grid {
+    margin-left: 100px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    justify-content: space-around;
+    color: var(--padraoCor)
+
+}
+.grid .card{
+
+    border: none;
+    text-align: center;
+}
+
+.card-img-top {
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 13px black;
+    width: 100px;
+    height: 150px
+
+}
